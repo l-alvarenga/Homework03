@@ -5,6 +5,10 @@ body {
     margin: 0 20px 0 20px;
   }
 
+  header {
+    margin-bottom: 20px;
+  }
+
 .bannerHeader {
 display: flex;
 width: 100%;
@@ -35,4 +39,46 @@ header div {
 
 .contenedorNav {
     display: flex;
+}
+
+#quienesSomos {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+#deDondeVenimos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.contenedorInfo {
+  margin: 0;
+}
+#maxImg {
+margin: 0 0 0 20px;
+}
+#frankkImg {
+margin: 0 20px 0 0; 
+}
+
+.subTitulo {
+  font-size: 25px;
+}
+div p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+#quienesSomosImg {
+  width: 650px;
+  height: 366px;
+}
+#deDondeVenimosImg {
+  width: 593px;
+  height: 331px;
 }
