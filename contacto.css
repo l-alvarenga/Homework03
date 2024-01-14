@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:
+    margin: 0 20px 0 20px;
+}
+
+header {
+    margin-bottom: 20px;
+  }
+
+.bannerHeader {
+display: flex;
+width: 100%;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 20px 0 20px 0;
+}
+
+  .logoHeader {
+    width: 5%;
+    }
+
+  .contenedorNav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.enlace {
+    color:white;
+    font-weight: 600;
+}
+
+.contenedorNav {
+    display: flex;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
