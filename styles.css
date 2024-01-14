@@ -2,9 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image:
     margin: 0 20px 0 20px;
-  }
+}
 
-  header {
+header {
     margin-bottom: 20px;
   }
 
@@ -82,4 +82,19 @@ div p {
 #deDondeVenimosImg {
   width: 593px;
   height: 331px;
+}
+
+#cs2Banner {
+  width: 100%;
+}
+
+
+#rosterOficial {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+
+.players {
+  width: 17%;
 }
